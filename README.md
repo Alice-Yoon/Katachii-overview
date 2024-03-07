@@ -1,13 +1,16 @@
 # Katachii-overview
 
-# Katachii-Frontend Overview
-Description about Katachii Frontend Version 2.
+유리공예 작가 Nara님의 심플한 개인 쇼핑몰.
+
+약 100명의 회원이 작가님의 작품을 구매하기 위해 이용하고 있습니다.
+
+1인 개발자로서 ‘기획, 프론트엔드, 백엔드, 배포’ 전과정을 담당하여 개발하였습니다.
 
 -----
 
 ## Overview.
 
-> A simple personal online shop for a glass artist, Nara.
+> 서비스 미리보기
 > 
 
 ### Mobile:
@@ -24,22 +27,22 @@ Description about Katachii Frontend Version 2.
 
 ## Key Features.
 
-- **register & login**
+- **회원가입 & 로그인**
     
 [<img src="https://img.youtube.com/vi/ZUm74YLlPYg/hqdefault.jpg" width="600" height="300"
 />](https://www.youtube.com/embed/ZUm74YLlPYg)
 
-- **Product details & Adding to cart**
+- **상품 상세 페이지 & 장바구니(cart)**
     
 [<img src="https://img.youtube.com/vi/E9k46ehkUfw/hqdefault.jpg" width="600" height="300"
 />](https://www.youtube.com/embed/E9k46ehkUfw)
 
-- **Purchasing the product**
+- **상품 구매**
     
 [<img src="https://img.youtube.com/vi/zEoGBrzy0pc/hqdefault.jpg" width="600" height="300"
 />](https://www.youtube.com/embed/zEoGBrzy0pc)
 
-- **My Page**
+- **마이페이지**
     
 [<img src="https://img.youtube.com/vi/g6Z6DobrOVA/hqdefault.jpg" width="600" height="300"
 />](https://www.youtube.com/embed/g6Z6DobrOVA)
@@ -48,27 +51,29 @@ Description about Katachii Frontend Version 2.
 
 -----
 
-## Improvements in Ver 02.
+## 개선사항
 
-### [FE] Enhanced the overall UI/UX for better intuitiveness.
+- 
 
-- Overview of Version 01:
+### [FE] 사용자들에게 좀더 직관적인 UI/UX 적용
+
+- Version 01에서는:
     
 [<img src="https://img.youtube.com/vi/pdMzjuVnB4E/hqdefault.jpg" width="600" height="300"
 />](https://www.youtube.com/embed/pdMzjuVnB4E)
 
-- **Improvements in details:**
-    - **Landing Page:**
-        - [ Version 1 ] - When users first entered the landing page, they had to scroll down to see the product list. The landing page of version 1 was not intuitive enough, causing many users confusion of not knowing how to access the product list.
+- **상세설명:**
+    - **랜딩 페이지:**
+        - [ 버전 1 ] - 버전1에서는 유저가 처음 랜딩페이지에 진입했을 때, 상품 리스트를 보기 위해 아래로 스크롤을 내려야 했습니다. 이는 직관적이지 않아 많은 유저들에게 혼란을 주었습니다.
           
             <img width="238" alt="스크린샷 2023-07-31 오후 12 00 20" src="https://github.com/Alice-Yoon/Version-2.-Katachii/assets/53468065/614cc143-9813-4f8f-a7a0-ae7d5a522a9b">
 
             
-        - [ Version 2 ] - the landing page has become intuitive by applying a hamburger menu for mobile screen and a side bar menu for pc screen.
+        - [ 버전 2 ] - 햄버거 메뉴와 사이드바를 도입해 좀더 친숙하고 직관적인 랜딩 페이지를 제공하였습니다.
             
             <img width="311" alt="스크린샷 2023-07-31 오후 12 00 53" src="https://github.com/Alice-Yoon/Version-2.-Katachii/assets/53468065/66c823e4-5b56-4021-93c1-4df20a051bdb">
             
-    - **Product Page:**
+    - **상품 상세 페이지:**
         - [ Version 1 ] - users had to scroll all the way down to the bottom in the product details page in order to find the CTA button for adding to cart or proceeding to purchase.
             
           <img width="239" alt="스크린샷 2023-07-31 오후 12 03 20" src="https://github.com/Alice-Yoon/Version-2.-Katachii/assets/53468065/8b48b794-51c3-4df3-b2b6-a597d56cde5d">
@@ -323,26 +328,3 @@ Description about Katachii Frontend Version 2.
 
 <br/>
 
------
-
-## Improvements in Ver 03.
-
-### [FE] Established a Design System to enhance design consistency and productivity.
-
-- open to see the code
-    
-    To Be Continued…
-    
-
-### [FE] Maximized reusability by implementing Compound Component and improved user convenience by keeping common areas of the component fixed.
-
-- open to see the code
-    
-    To Be Continued…
-    
-
-### [FE] Increased code abstraction and reusability by utilizing Custom Hooks.
-
-- open to see the code
-    
-    To Be Continued…
