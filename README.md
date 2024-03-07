@@ -167,9 +167,9 @@
     	const product = await Product.findById(req.params.id).populate(category);
     
     	if(!product) {
-        return next(
-    				new ErrorResponse(`No product found with id of ${req.params.id}`, 
-    				404
+            return next(
+                new ErrorResponse(`No product found with id of ${req.params.id}`, 
+                404
     		);
       }
     
