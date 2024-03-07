@@ -74,45 +74,43 @@
             <img width="311" alt="스크린샷 2023-07-31 오후 12 00 53" src="https://github.com/Alice-Yoon/Version-2.-Katachii/assets/53468065/66c823e4-5b56-4021-93c1-4df20a051bdb">
             
     - **상품 상세 페이지:**
-        - [ Version 1 ] - users had to scroll all the way down to the bottom in the product details page in order to find the CTA button for adding to cart or proceeding to purchase.
+        - [ Version 1 ] - 작품 상세 페이지에서 '구매하기&카드추가' 버튼을 찾기 위해 유저들은 아래 영역까지 스크롤을 내려야 했습니다.
             
           <img width="239" alt="스크린샷 2023-07-31 오후 12 03 20" src="https://github.com/Alice-Yoon/Version-2.-Katachii/assets/53468065/8b48b794-51c3-4df3-b2b6-a597d56cde5d">
 
             
-        - [ Version 2 ] - After finding out that the majority of users to our service were using mobile, I had the CTA buttons stick on the bottom of the screen all the time in product details page and added bottom sheet for mobile to easily add to cart or proceed to purchase.
+        - [ Version 2 ] - 요즘 대부분의 유저가 모바일을 사용하기 때문에, CTA 버튼이 항상 상세 페이지 화면 하단에 위치하도록 변경하였습니다.
      
             <img width="144" alt="스크린샷 2023-07-31 오후 12 04 26" src="https://github.com/Alice-Yoon/Version-2.-Katachii/assets/53468065/786bcb41-baa5-4cf2-a493-45c905dd4bf2">
             
     
-    - **Purchase Page:**
+    - **구매 페이지:**
         - [ Version 1 ]
             
           
           <img width="240" alt="스크린샷 2023-07-31 오후 12 06 36" src="https://github.com/Alice-Yoon/Version-2.-Katachii/assets/53468065/fe1b3110-6a4b-416b-8c28-c4455af5c438">
 
-        - [ Version 2 ] - By dividing the overall payment process into 'Customer Information,' 'Order Details,' and 'Payment,' users can now complete their orders more conveniently and intuitively.
+        - [ Version 2 ] - 구매 단계를 3가지로 나눠서 유저가 좀더 직관적이고 편리하게 구매를 완료할 수 있도록 하였습니다.
 
           <img width="106" alt="스크린샷 2023-07-31 오후 12 07 17" src="https://github.com/Alice-Yoon/Version-2.-Katachii/assets/53468065/a42f3cfb-f712-4315-a1f8-edd98475dec2">
             
     
     - **My Page:**
-        - [ Version 1 ] - there weren’t many functionalities in my page previously. Users could only see the list of their orders and brief indicators for delivery status.
+        - [ Version 1 ]
             
             <img width="332" alt="스크린샷 2023-07-31 오후 12 07 57" src="https://github.com/Alice-Yoon/Version-2.-Katachii/assets/53468065/cd0764a0-f9bc-4ffd-971b-d25dedfcfdc1">
 
-        - [ Version 2 ] - now the users can do a lot more in their my page.
-            - 1) Users can change their password.
-            - 2) Users can save up to 3 addresses so that they can simply choose from the address list during the purchase process instead of having to fill it out all over again every time they place an order.
-            - 3) Users can now see the orders they have made with greater clarity.
+        - [ Version 2 ] - 마이 페이지에 아래의 기능을 좀더 추가하였습니다.
+            - 1) 비밀번호 변경
+            - 2) 주소 최대 3개 저장. (구매 시, 매번 주소를 입력하는 대신, 이곳에 저장한 주소를 선택할 수 있습니다.)
+              3) 구매 내역을 좀더 직관적으로 확인할 수 있습니다.
                  
             <img width="119" alt="스크린샷 2023-07-31 오후 12 08 22" src="https://github.com/Alice-Yoon/Version-2.-Katachii/assets/53468065/984a4f9a-ddaa-4832-a457-a7829b27a8e9">
             
 
-### [BE] Improved code maintainability by..
+### [BE] 코드 유지 보수성 향상
 
-1) Applying Restful API
-
-- open to see the code
+1) Restful API 적용
     
     ```jsx
     // Ver 01:
@@ -130,9 +128,7 @@
     ```
     
 
-2) Separating routes and controllers
-
-- open to see the code
+2) routes와 controllers 분리
     
     ```jsx
     ///////////////////
@@ -185,9 +181,7 @@
     ```
     
 
-### [BE] Increased code reusability and eliminated duplicate code by implementing middlewares.
-
-- open to see the code
+### [BE] middleware 적용
     
     ```jsx
     // Ver 02:
